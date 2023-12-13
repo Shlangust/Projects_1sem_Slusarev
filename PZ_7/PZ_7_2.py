@@ -5,4 +5,7 @@
 
 S = 'Мое имя "Никто"'
 S0 = 'о'
-print(S.replace(S0,''))
+try:
+ print(S.replace(S0,''))
+except:
+    print('Error')

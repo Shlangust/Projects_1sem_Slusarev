@@ -6,5 +6,8 @@ N1 = 4
 N2 = 4
 S1 = 'Do glatem live'
 S2 = 'Now your soul return to paradise (fall down)'
-S = S1[0:N1] + S2[-N2:]
-print(S)
+try:
+    S = S1[0:N1] + S2[-N2:]
+    print(S)
+except:
+    print('Error')
